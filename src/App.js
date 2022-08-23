@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './Component/pages/counter.component';
+import User from './Component/pages/User.component';
+import Course from './Component/pages/Course.component';
+import UsersTable from './Component/pages/Users-Table/Users-Table';
+import Reducer from './Component/pages/Reducer/Reducer';
+
 
 function App() {
+
+  // function Toggle(n){ ///////////////12
+  //   if(){
+  //     <About/>
+  //   }
+  //   else{
+  //     <Course/>
+  //   }
+  // }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Reducer/> */}
+      {/* <Counter num={54}/> */}
+      {/* <User/> */}
+      <UsersTable/>
+      {/* <Course/>  */}
+      {/* <About/> */}
+
     </div>
   );
 }
 
 export default App;
+
+
